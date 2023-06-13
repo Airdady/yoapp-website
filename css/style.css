@@ -161,7 +161,7 @@ body {
     line-height: 1.7;
     font-family: 'Poppins', sans-serif;
     color: var(--body-text-purple);
-    background-color: var(--light-purple);
+    background-color: white;
 }
 
 .page_wrapper {
@@ -485,7 +485,6 @@ header.fixed .navbar {
 
 .navbar-expand-lg .navbar-nav .has_dropdown:hover {
     background-color: var(--bg-white);
-    box-shadow: 0px 4px 10px #c5c5c580;
 }
 
 .navbar-expand-lg .navbar-nav .has_dropdown .drp_btn {
@@ -504,7 +503,6 @@ header.fixed .navbar {
     transition: .4s all;
     opacity: 0;
     pointer-events: none;
-    box-shadow: 0px 4px 10px #c5c5c580;
 }
 
 .navbar-expand-lg .navbar-nav .has_dropdown .sub_menu ul {
@@ -852,7 +850,7 @@ header.fixed .navbar {
     margin-top: 120px;
     padding-top: 60px;
     padding-bottom: 20px;
-    box-shadow: 0px 4px 30px #EDE9FE;
+
 }
 
 /* features section image */
@@ -963,7 +961,7 @@ header.fixed .navbar {
     border-radius: 12px;
     padding: 15px 10px;
     padding-left: 35px;
-    box-shadow: 0px 4px 10px #EDE9FE;
+    box-shadow: none;
 }
 
 .about_app_section .about_text .app_statstic li .icon {
@@ -1080,7 +1078,7 @@ header.fixed .navbar {
     padding: 70px 0;
     padding-bottom: 250px;
     border-radius: 30px;
-    box-shadow: 0px 4px 30px #EDE9FE;
+
 }
 
 /* how it works list */
@@ -1106,7 +1104,7 @@ header.fixed .navbar {
     transform: translateX(-50%);
     width: 4px;
     height: calc(100% + 100px);
-    background-color: var(--light-bg);
+    background-color: white;
 }
 
 .how_it_works .step_block ul li:first-child::after {
@@ -1117,7 +1115,7 @@ header.fixed .navbar {
     transform: translateX(-50%);
     width: 14px;
     height: 14px;
-    background-color: var(--light-bg);
+    background-color: white;
     border-radius: 15px;
 }
 
@@ -1156,7 +1154,7 @@ header.fixed .navbar {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: var(--light-bg);
+    background-color: white;
     color: var(--text-white);
     font-size: 20px;
     text-align: center;
@@ -1496,7 +1494,7 @@ iframe#youtubevideo {
     border-radius: 12px;
     padding-top: 60px;
     margin-bottom: 40px;
-    box-shadow: 0px 4px 30px #EDE9FE;
+
 }
 
 .pricing_section .pricing_pannel .pricing_block.highlited_block {
@@ -1752,7 +1750,7 @@ box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
     background-color: var(--bg-white);
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 4px 30px #EDE9FE; 
+ 
 }
 
 /* latest story image */
@@ -2600,7 +2598,7 @@ header.fix_style.white_header {
     border-radius: 30px;
     width: 1370px;
     margin: 0 15px;
-    box-shadow: 0 4px 30px #EDE9FE;
+    box-shadow: none;
     padding: 85px 0;
 }
 
@@ -3160,7 +3158,6 @@ header.fix_style.white_header {
     margin: 0 auto;
     padding: 40px 0;
     border-radius: 12px;
-    box-shadow: 0 4px 10px #00000054;
     background-color: var(--bg-white);
 }
 
