@@ -1901,7 +1901,7 @@ footer {
 }
 
 footer .top_footer {
-    background-color: #583BD3;
+    background-color: #1E2E40;
     padding: 60px 0 60px 0;
     position: relative;
     overflow: hidden;
@@ -3438,13 +3438,20 @@ header.fix_style.white_header {
     margin: 50px 0;
 }
 
+.terms_page_section {
+    padding-bottom: 3rem ;
+    text-align: left;
+}
+.privacy-container {
+    padding-bottom: 3rem;
+    text-align: left;
+}
 .privacy-card {
-    background-color: #ffffff;
-    padding:1rem 1.5rem;
+    padding:0.2rem 1.5rem;
     margin:5px;
 }
 .privacy-card h5{
-    padding:1rem 1rem;
+    padding:0.5rem 1rem;
 }
 .privacy-card ul {
     margin: 0rem 2rem;
