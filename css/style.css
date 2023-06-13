@@ -1977,7 +1977,9 @@ footer .app_btn li:last-child {
 }
 
 footer .bottom_footer {
-    background-color: var(--bg-purple);
+    border-top:1px solid #f1f1f1;
+    background-color:  #1E2E40;
+    text-align: center;
 }
 
 /* footer heading and text colors variable */
