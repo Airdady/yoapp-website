@@ -138,9 +138,9 @@
 :root {
     --light-purple: #F6F4FE;
     --primary: #710E22;
-    --bg-purple: #710E22;
+    --bg-purple: #008bb7;
     --dark-purple: #710E22;
-    --bg-dark-blue: #3E3F66;
+    --bg-dark-blue: #008bb7;
     --text-white: #ffffff;
     --bg-white: #ffffff;
     --slider-dots-color: #D4D2DD;
@@ -158,7 +158,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    line-height: 1.7;
     font-family: 'Poppins', sans-serif;
     color: var(--bg-dark-blue);
     background-color: white;
@@ -399,6 +398,7 @@ button:focus,
 /* header wraper */
 header {
     position: relative;
+    background-color: #008bb7;
     width: 100%;
     z-index: 99999;
     transition: .4s all;
@@ -638,27 +638,18 @@ header.fixed .navbar {
 /* ---------Hero-Slider-Css-Start------------------ */
 /* hero slider wraper */
 .banner_section {
-    margin-top: 70px;
     position: relative;
+    background: #008bb7;
+    clip-path: polygon(0 0,5760px 0,5760px calc(100% - 352px),0 100%);
 }
 
 .banner_section .container {
+    padding-top: 10px;
+    padding-bottom: 70px;
     position: relative;
 }
 
 /* wave backgound after banner */
-.banner_section::after {
-    content: "";
-    display: block;
-    background-image: url(../images/banner-shape.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    margin-top: -50px;
-}
-
 .banner_section .row {
     align-items: center;
 }
@@ -842,7 +833,7 @@ header.fixed .navbar {
 
 /* features section wraper */
 .features_section .feature_detail {
-    background-color: var(--bg-white);
+    background-color: #008bb7;
     border-radius: 30px;
     position: relative;
     display: flex;
@@ -1104,7 +1095,7 @@ header.fixed .navbar {
     transform: translateX(-50%);
     width: 4px;
     height: calc(100% + 100px);
-    background-color: white;
+    background-color: gainsboro;
 }
 
 .how_it_works .step_block ul li:first-child::after {
@@ -1115,7 +1106,7 @@ header.fixed .navbar {
     transform: translateX(-50%);
     width: 14px;
     height: 14px;
-    background-color: white;
+    background-color: gainsboro;
     border-radius: 15px;
 }
 
@@ -1186,10 +1177,6 @@ header.fixed .navbar {
 
 /* how it works numbers */
 .how_it_works .step_block ul li .step_number {
-    background-image: url(../images/icon_bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 110px;
     height: 110px;
     display: flex;
@@ -1213,10 +1200,6 @@ header.fixed .navbar {
     overflow: hidden;
 }
 
-/* how it works video animation line  */
-.how_it_works .yt_video .anim_line {
-    z-index: 999;
-}
 
 .how_it_works .yt_video .thumbnil {
     position: relative;
@@ -2038,85 +2021,7 @@ footer .bottom_footer .developer_text a {
     bottom: 80px;
 }
 
-/* -----------Animation-Css-Start-------------- */
 
-/* animation line wraper */
-.anim_line {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.anim_line span {
-    position: absolute;
-    z-index: 99999;
-    top: -275px;
-    animation: star_down_one 6s infinite linear;
-    opacity: 0;
-}
-
-.anim_line.dark_bg {
-    max-width: 1170px;
-}
-
-.anim_line.dark_bg span {
-    transform: rotate(180deg);
-}
-
-.anim_line span:first-child {
-    left: -17%;
-    animation-delay: 3s;
-}
-
-.anim_line span:nth-child(2) {
-    left: 0%;
-    animation-delay: 5s;
-}
-
-.anim_line span:nth-child(3) {
-    left: 17%;
-    animation-delay: 1s;
-}
-
-.anim_line span:nth-child(4) {
-    left: 34%;
-    animation-delay: 4s;
-}
-
-.anim_line span:nth-child(5) {
-    left: 51%;
-    animation-delay: 7s;
-}
-
-.anim_line span:nth-child(6) {
-    left: 68%;
-}
-
-.anim_line span:nth-child(7) {
-    left: 85%;
-    animation-delay: 3s;
-}
-
-.anim_line span:nth-child(8) {
-    left: 99%;
-    animation-delay: 2s;
-}
-
-.anim_line span:nth-child(9) {
-    left: 117%;
-    animation-delay: 5s;
-}
-
-/* footer .top_footer .anim_line span:first-child {
-    left: 5%;
-}
-
-footer .top_footer .anim_line span:nth-child(2) {
-    left: 13%;
-} */
 
 @keyframes star_down_one {
     0% {
