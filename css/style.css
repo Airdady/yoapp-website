@@ -2287,7 +2287,7 @@ footer .bottom_footer .developer_text a {
 
 
 header.fix_style.white_header {
-    background-color: #664bece0;
+    background-color: #008bb7;
 }
 
 
@@ -2295,8 +2295,8 @@ header.fix_style.white_header {
 
 /* Bredcrumb Css Start */
 .bred_crumb {
-    background-image: url(../images/bread_crumb_bg.png);
     /*background: var(--primary);*/
+    background: #008bb7;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2306,11 +2306,11 @@ header.fix_style.white_header {
     align-items: center;
     position: relative;
     margin-top: -96px;
+    clip-path: polygon(0 0,5760px 0,5760px calc(100% - 352px),0 100%);
 }
 
 .bred_crumb::after {
     content: "";
-    background-image: url(../images/inner_page_banner_overlay.svg);
     position: absolute;
     bottom: -1px;
     left: 0;
