@@ -140,7 +140,7 @@
     --primary: #710E22;
     --bg-purple: #710E22;
     --dark-purple: #710E22;
-    --body-text-purple: #3E3F66;
+    --bg-dark-blue: #3E3F66;
     --text-white: #ffffff;
     --bg-white: #ffffff;
     --slider-dots-color: #D4D2DD;
@@ -160,7 +160,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     font-family: 'Poppins', sans-serif;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
     background-color: white;
 }
 
@@ -171,12 +171,12 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
 }
 
 a:hover {
     text-decoration: none;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
 }
 
 ul,
@@ -348,7 +348,7 @@ button:focus,
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: var(--body-text-purple);
+    border-top-color: var(--bg-dark-blue);
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -586,7 +586,7 @@ header.fixed .navbar {
       width: 25px;
       margin: 10px 0;
       position: relative;
-      border-top: 4px solid var(--body-text-purple);
+      border-top: 4px solid var(--bg-dark-blue);
       display: block;
   }
 
@@ -594,7 +594,7 @@ header.fixed .navbar {
   .toggle-bar::after {
       content: "";
       display: block;
-      background: var(--body-text-purple);
+      background: var(--bg-dark-blue);
       height: 4px;
       width: 30px;
       position: absolute;
@@ -1437,7 +1437,7 @@ iframe#youtubevideo {
 }
 
 .pricing_section .toggle_block span.deactive {
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
 }
 
 .pricing_section .toggle_block .offer {
@@ -1525,7 +1525,7 @@ iframe#youtubevideo {
 }
 
 .pricing_section .pricing_pannel .pricing_block .pkg_name span {
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
     font-size: 15px;
 }
 
@@ -1973,12 +1973,11 @@ footer .app_btn li a:hover {
 }
 
 footer .app_btn li:last-child {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 footer .bottom_footer {
-    border-top:1px solid #f1f1f1;
-    background-color:  #1E2E40;
+    background-color:  #131f2e;
     text-align: center;
 }
 
@@ -2474,11 +2473,11 @@ header.fix_style.white_header {
     border: 1px solid var(--bg-purple);
     font-size: 16px;
     padding-left: 30px;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
 }
 
 .bred_crumb .bred_text .search_bar form .form-group .form-control::placeholder {
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
 }
 
 .bred_crumb .bred_text .search_bar form .form-group .form-control:focus {
@@ -2654,7 +2653,7 @@ header.fix_style.white_header {
 }
 
 .experts_team_section .experts_box .text span {
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
 }
 
 .experts_team_section .experts_box .social_media {
@@ -3111,12 +3110,12 @@ header.fix_style.white_header {
     box-shadow: 0 3px 6px #EDE9FE;
     border: transparent;
     margin-bottom: 30px;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
     padding: 15px;
 }
 
 .comment_form_section form .form-group .form-control::placeholder {
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
 }
 
 .comment_form_section form .form-group textarea.form-control {
@@ -3182,7 +3181,7 @@ header.fix_style.white_header {
 .signup_form form .form-group .form-control {
     height: 60px;
     padding: 5px 20px;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
     border: 2px solid #E1DBF4;
     border-radius: 12px;
     font-weight: 500;
@@ -3229,7 +3228,7 @@ header.fix_style.white_header {
     min-width: 330px;
     border: 2px solid #E1DBF4;
     text-align: center;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
     padding: 16px;
     border-radius: 100px;
     transition: .4s all;
@@ -3344,7 +3343,7 @@ header.fix_style.white_header {
 .contact_page_section .contact_inner .contact_form form .form-group .form-control {
     height: 60px;
     padding: 5px 20px;
-    color: var(--body-text-purple);
+    color: var(--bg-dark-blue);
     border: 2px solid #E1DBF4;
     border-radius: 12px;
     font-weight: 500;
