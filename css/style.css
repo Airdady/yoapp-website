@@ -1002,7 +1002,7 @@ header.fixed .navbar {
     position: absolute;
     left: 0;
     top: 5px;
-    background-image: url(../images/right_icon.png);
+    background-image: url(../images/svg/right-icon.svg);
     width: 22px;
     height: 22px;
     background-repeat: no-repeat;
@@ -1206,7 +1206,7 @@ header.fixed .navbar {
 }
 
 .how_it_works .yt_video .thumbnil img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .how_it_works .yt_video .thumbnil a {
