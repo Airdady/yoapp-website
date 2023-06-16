@@ -1145,7 +1145,7 @@ header.fixed .navbar {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: white;
+    background-color: gainsboro;
     color: var(--text-white);
     font-size: 20px;
     text-align: center;
