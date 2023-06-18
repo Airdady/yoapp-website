@@ -137,10 +137,10 @@
 
 :root {
     --light-purple: #F6F4FE;
-    --primary: #710E22;
-    --bg-purple: #008bb7;
+    --primary: #8c2424;
+    --bg-purple: #730D23;
     --dark-purple: #710E22;
-    --bg-dark-blue: #008bb7;
+    --bg-dark-blue: #730D23;
     --text-white: #ffffff;
     --bg-white: #ffffff;
     --slider-dots-color: #D4D2DD;
@@ -219,7 +219,6 @@ button:focus,
 /* purple button */
 .puprple_btn {
     background-color: var(--primary);
-    color: var(--text-white);
     border-radius: 50px;
     padding: 10px 40px;
     position: relative;
@@ -398,7 +397,6 @@ button:focus,
 /* header wraper */
 header {
     position: relative;
-    background-color: #008bb7;
     width: 100%;
     z-index: 99999;
     transition: .4s all;
@@ -429,7 +427,6 @@ header.fixed .navbar {
 .navbar {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 35px;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -446,11 +443,10 @@ header.fixed .navbar {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
-    color: var(--text-white);
     background-color: var(--primary);
     font-size: 16px;
     padding: 9px 40px;
-    border-radius: 25px;
+    border-radius: 0px;
     margin-left: 20px;
     position: relative;
 }
@@ -471,7 +467,7 @@ header.fixed .navbar {
 }
 
 .navbar-brand img {
-    width: 150px;
+    width: 70px;
 }
 
 /* navigation bar dropdown */
@@ -636,10 +632,30 @@ header.fixed .navbar {
 
 
 /* ---------Hero-Slider-Css-Start------------------ */
+
+.opacity-\[35\%\] {
+    opacity: 35%;
+}
+
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.z-\[1\] {
+    z-index: -100;
+}
+.fixed {
+    position: fixed;
+}
+
 /* hero slider wraper */
 .banner_section {
+    background-image: url(../images/svg/texture-bg.svg);
     position: relative;
-    background: #008bb7;
+    background-size: cover;
+    background: #9a4255;
     clip-path: polygon(0 0,5760px 0,5760px calc(100% - 352px),0 100%);
 }
 
@@ -833,7 +849,7 @@ header.fixed .navbar {
 
 /* features section wraper */
 .features_section .feature_detail {
-    background-color: #008bb7;
+    background-color: #e3e3e3;
     border-radius: 30px;
     position: relative;
     display: flex;
@@ -1551,8 +1567,8 @@ iframe#youtubevideo {
 .faq_section .faq_panel .card {
     border: none;
     margin-bottom: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px #EDE9FE;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px #d7d5d5;
     padding: 16px 0;
 }
 
@@ -1901,7 +1917,7 @@ footer .top_footer .logo {
 }
 
 footer .top_footer .logo img {
-    width: 150px;
+    width: 100px;
 }
 
 footer .top_footer .abt_side li {
@@ -2272,9 +2288,6 @@ footer .bottom_footer .developer_text a {
 
 /* White Header Css Satart */
 
-.white_header .navbar-expand-lg .navbar-nav .nav-link ,.white_header .navbar-expand-lg .navbar-nav .has_dropdown .drp_btn {
-    color: var(--text-white);
-}
 
 .white_header .navbar-expand-lg .navbar-nav .has_dropdown:hover .drp_btn {
     color: var(--primary);
@@ -2287,7 +2300,7 @@ footer .bottom_footer .developer_text a {
 
 
 header.fix_style.white_header {
-    background-color: #008bb7;
+    background-color: #730D23;
 }
 
 
@@ -2296,16 +2309,16 @@ header.fix_style.white_header {
 /* Bredcrumb Css Start */
 .bred_crumb {
     /*background: var(--primary);*/
-    background: #008bb7;
+    background: #730D23;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 350px;
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: -96px;
+    margin-top: -125px;
     clip-path: polygon(0 0,5760px 0,5760px calc(100% - 352px),0 100%);
 }
 
@@ -3032,7 +3045,6 @@ header.fix_style.white_header {
 
 /* Sign Up Css Start */
 .full_bg {
-    /*background-image: url(../images/form_bg.png);*/
     background-size: cover;
     background: var(--primary);
     width: 100%;
@@ -3218,7 +3230,7 @@ header.fix_style.white_header {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top: -150px;
+    margin-top: -90px;
 }
 
 .contact_page_section .contact_inner .section_title h2 {
