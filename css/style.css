@@ -1566,9 +1566,8 @@ iframe#youtubevideo {
 /* faq box */
 .faq_section .faq_panel .card {
     border: none;
-    margin-bottom: 20px;
     border-radius: 2px;
-    box-shadow: 0 4px 10px #d7d5d5;
+    border-bottom: solid 1px #e1e1e1;
     padding: 16px 0;
 }
 
