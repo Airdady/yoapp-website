@@ -181,7 +181,7 @@
     footer .top_footer.has_bg {background-position: center;}
 
     /* Bred Crumb */
-    .bred_crumb {min-height: 350px;}
+    .bred_crumb {min-height: 400px;}
     .bred_crumb .bred_text h1 {font-size: 30px;}
     .bred_crumb::after {background-size: 100%; height: 90px; bottom: -5px;}
     .bred_crumb .bred_text .search_bar form .form-group {height: 50px;}
