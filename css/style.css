@@ -1553,6 +1553,7 @@ iframe#youtubevideo {
 .pricing_section .contact_text a {
     color: var(--primary);
     text-decoration: underline;
+    color: #404838;
 }
 
 
