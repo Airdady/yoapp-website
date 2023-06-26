@@ -138,9 +138,9 @@
 :root {
     --light-purple: #F6F4FE;
     --primary: #8c2424;
-    --bg-purple: #730D23;
+    --bg-purple: #d7d7d7;
     --dark-purple: #710E22;
-    --bg-dark-blue: #730D23;
+    --bg-dark-blue: #d7d7d7;
     --text-white: #ffffff;
     --bg-white: #ffffff;
     --slider-dots-color: #D4D2DD;
@@ -652,10 +652,9 @@ header.fixed .navbar {
 
 /* hero slider wraper */
 .banner_section {
-    background-image: url(../images/svg/texture-bg.svg);
     position: relative;
     background-size: cover;
-    background: #9a4255;
+    background: #d7d7d7;
     clip-path: polygon(0 0,5760px 0,5760px calc(100% - 352px),0 100%);
 }
 
@@ -2300,7 +2299,7 @@ footer .bottom_footer .developer_text a {
 
 
 header.fix_style.white_header {
-    background-color: #730D23;
+    background-color: #d7d7d7;
 }
 
 
@@ -2309,7 +2308,7 @@ header.fix_style.white_header {
 /* Bredcrumb Css Start */
 .bred_crumb {
     /*background: var(--primary);*/
-    background: #730D23;
+    background: #d7d7d7;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
