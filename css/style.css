@@ -1528,7 +1528,7 @@ iframe#youtubevideo {
 }
 
 .pricing_section .pricing_pannel .pricing_block .price {
-    font-size: 48px;
+    font-size: 30px;
     color: var(--primary);
     margin: 25px 0;
     display: block;
