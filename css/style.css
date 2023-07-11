@@ -1488,11 +1488,11 @@ iframe#youtubevideo {
 .pricing_section .pricing_pannel .pricing_block {
     text-align: center;
     background-color: var(--bg-white);
-    min-height: 700px;
+    min-height: 600px;
     border-radius: 12px;
     padding-top: 60px;
     margin-bottom: 40px;
-
+    border:1px solid #8c2424;
 }
 
 .pricing_section .pricing_pannel .pricing_block.highlited_block {
@@ -1538,10 +1538,25 @@ iframe#youtubevideo {
 /* pricing box list */
 .pricing_section .pricing_pannel .pricing_block .benifits {
     margin-bottom: 40px;
+    text-align: left;
 }
 
+.pricing_section .pricing_pannel .pricing_block .benifits li:before {
+    list-style-type: none;
+     text-align: left;
+     /* padding-left: 70px; */
+     content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-image: url('../images/svg/right-icon_orange.svg');
+      background-size: cover;
+      margin-left: 60px;
+}
 .pricing_section .pricing_pannel .pricing_block .benifits li p {
     margin-bottom: 5px;
+    display: inline-block;
+     
 }
 
 .pricing_section .contact_text {
